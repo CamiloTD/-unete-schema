@@ -1,0 +1,51 @@
+{
+  "types": {
+    "object": {
+      "type": "object",
+      "frequency": 1,
+      "properties": {
+        "properties": {
+          "identity": {
+            "types": {
+              "object": {
+                "type": "object",
+                "frequency": 1,
+                "properties": {
+                  "properties": {
+                    "name": {
+                      "types": {
+                        "string": {
+                          "type": "string",
+                          "frequency": 1,
+                          "properties": null
+                        }
+                      }
+                    },
+                    "lastName": {
+                      "types": {
+                        "string": {
+                          "type": "string",
+                          "frequency": 1,
+                          "properties": null
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "age": {
+            "types": {
+              "number": {
+                "type": "number",
+                "frequency": 1,
+                "properties": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

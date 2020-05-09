@@ -1,0 +1,44 @@
+{
+  "types": {
+    "object": {
+      "type": "object",
+      "frequency": 8,
+      "properties": {
+        "properties": {
+          "name": {
+            "types": {
+              "string": {
+                "type": "string",
+                "frequency": 8,
+                "properties": null
+              }
+            }
+          },
+          "age": {
+            "types": {
+              "number": {
+                "type": "number",
+                "frequency": 7,
+                "properties": null
+              }
+            }
+          },
+          "married": {
+            "types": {
+              "boolean": {
+                "type": "boolean",
+                "frequency": 5,
+                "properties": null
+              },
+              "number": {
+                "type": "number",
+                "frequency": 1,
+                "properties": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
